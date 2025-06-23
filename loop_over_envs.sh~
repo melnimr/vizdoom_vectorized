@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for n in  2000 3000 4000; do
+    python3.10 gym_vectorized_no_learning.py --n_envs $n
+done

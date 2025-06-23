@@ -1,0 +1,183 @@
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+Traceback (most recent call last):
+  File "/home/neo/gym_vectorized/gym_vectorized_no_learning.py", line 16, in <module>
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 930, in make_vec
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 233, in __init__
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 121, in start
+  File "/usr/lib/python3.10/multiprocessing/context.py", line 281, in _Popen
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 19, in __init__
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 65, in _launch
+OSError: [Errno 24] Too many open files
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >'
+AL lib: (EE) connect_context: Context did not connect: Access denied
+  what():  signal_set_service pipe: Too many open files
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+Process Worker<AsyncVectorEnv>-276:
+AL lib: (EE) connect_context: Context did not connect: Access denied
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 728, in _async_worker
+    env = env_fn()
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/utils/misc.py", line 36, in __call__
+    return self.fn()
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 905, in create_single_env
+    single_env = make(env_spec, **env_spec_kwargs.copy())
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 742, in make
+    env = env_creator(**env_spec_kwargs)
+  File "/home/neo/.local/lib/python3.10/site-packages/vizdoom/gymnasium_wrapper/gymnasium_env_defns.py", line 18, in __init__
+    super().__init__(
+  File "/home/neo/.local/lib/python3.10/site-packages/vizdoom/gymnasium_wrapper/base_gymnasium_env.py", line 125, in __init__
+    self.game.init()
+vizdoom.vizdoom.SignalException: Signal SIGTERM received. ViZDoom instance has been closed.
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+Process Worker<AsyncVectorEnv>-278:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 728, in _async_worker
+    env = env_fn()
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/utils/misc.py", line 36, in __call__
+    return self.fn()
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 905, in create_single_env
+    single_env = make(env_spec, **env_spec_kwargs.copy())
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 742, in make
+    env = env_creator(**env_spec_kwargs)
+  File "/home/neo/.local/lib/python3.10/site-packages/vizdoom/gymnasium_wrapper/gymnasium_env_defns.py", line 18, in __init__
+    super().__init__(
+  File "/home/neo/.local/lib/python3.10/site-packages/vizdoom/gymnasium_wrapper/base_gymnasium_env.py", line 125, in __init__
+    self.game.init()
+vizdoom.vizdoom.SignalException: Signal SIGTERM received. ViZDoom instance has been closed.
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+./loop_over_envs.sh: line 3: 3667059 Killed                  python3.10 gym_vectorized_no_learning.py --n_envs $n
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+Traceback (most recent call last):
+  File "/home/neo/gym_vectorized/gym_vectorized_no_learning.py", line 16, in <module>
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 930, in make_vec
+  File "/home/neo/.local/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 233, in __init__
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 121, in start
+  File "/usr/lib/python3.10/multiprocessing/context.py", line 281, in _Popen
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 19, in __init__
+  File "/usr/lib/python3.10/multiprocessing/popen_fork.py", line 65, in _launch
+OSError: [Errno 24] Too many open files
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+AL lib: (EE) connect_context: Context did not connect: Access denied
+./loop_over_envs.sh: line 3: 3671771 Killed                  python3.10 gym_vectorized_no_learning.py --n_envs $n
+./loop_over_envs.sh: line 3: 3674877 Killed                  python3.10 gym_vectorized_no_learning.py --n_envs $n
